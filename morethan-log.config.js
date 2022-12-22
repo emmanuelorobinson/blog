@@ -7,7 +7,7 @@ const CONFIG = {
     linkedin: 'emmanuel-robinson-1a22171b0',
     email: 'emmanueloerobinson@gmail.com',
     github: 'emmanuelorobinson',
-    // instagram: 'emmanueloerobinson',
+    instagram: '',
   },
   projects: [
     {
