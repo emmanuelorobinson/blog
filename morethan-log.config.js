@@ -22,7 +22,7 @@ const CONFIG = {
   // blog setting
   blog: {
     title: 'emmanuel ejakpomewhe',
-    description: 'welcome to emmanuel jjakpomewhe\'s blog',
+    description: 'welcome to emmanuel ejakpomewhe\'s blog',
     theme: 'auto' // ['light', 'dark', 'auto']
   },
 
