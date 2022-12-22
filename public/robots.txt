@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://emmanuelrobinson.dev
+Host: https://blog.emmanuelrobinson.dev
 
 # Sitemaps
-Sitemap: https://emmanuelrobinson.dev/sitemap.xml
+Sitemap: https://blog.emmanuelrobinson.dev/sitemap.xml
