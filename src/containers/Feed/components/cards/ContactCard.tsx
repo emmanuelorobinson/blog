@@ -7,7 +7,7 @@ import {
   AiFillLinkedin,
 } from 'react-icons/ai'
 
-const Contact: React.FC = () => {
+const ContactCard: React.FC = () => {
   return (
     <>
       <div className="p-1 mb-3 dark:text-white">💬 Contact</div>
@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
           >
             <AiOutlineGithub className="text-2xl" />
-            <div className="text-sm">GitHub</div>
+            <div className="text-sm">Github</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineInstagram className="text-2xl" />
-            <div className="text-sm">@{CONFIG.profile.instagram}</div>
+            <div className="text-sm">Instagram</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
             href={`mailto:${CONFIG.profile.email}`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineMail className="text-2xl flex-shrink-0" />
             <div className="text-sm">Email</div>
@@ -53,7 +53,6 @@ const Contact: React.FC = () => {
             className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
-            {/* <div className="text-sm">{CONFIG.profile.linkedin}</div> */}
             <div className="text-sm">LinkedIn</div>
           </a>
         )}
@@ -62,4 +61,4 @@ const Contact: React.FC = () => {
   )
 }
 
-export default Contact
+export default ContactCard

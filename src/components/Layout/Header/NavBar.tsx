@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import React from 'react'
 
 const NavBar: React.FC = () => {
   const links = [{ id: 1, name: 'About', to: '/about' }]

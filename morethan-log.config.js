@@ -3,7 +3,8 @@ const CONFIG = {
   profile: {
     name: 'Emmanuel Ejakpomewhe',
     image: '/avatar.png',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    discription: 'Software Engineer',
+    role: 'Software Engineer',
+    bio: 'A computer science & business infromation systems double major with a passion for building products that solve real world problems.',
     linkedin: 'emmanuel-robinson-1a22171b0',
     email: 'emmanueloerobinson@gmail.com',
     github: 'emmanuelorobinson',
@@ -21,16 +22,16 @@ const CONFIG = {
   ],
   // blog setting
   blog: {
-    title: 'emmanuel ejakpomewhe',
+    title: 'Emmanuel Ejakpomewhe',
     description: 'welcome to emmanuel ejakpomewhe\'s blog',
     theme: 'auto' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration
-  link: '',
+  link: 'https://blog.emmanuelrobinson.dev/',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  postsPerPage: 10,
+  // postsPerPage: 10,
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ['Blog', 'Website', 'Notion', 'Emmanuel Ejakpomewhe'],
@@ -39,8 +40,6 @@ const CONFIG = {
   // notion configuration
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
-    // if you prefer not to make your database public, use this!!!
-    accessToken: process.env.NOTION_ACCESS_TOKEN
   },
 
   // plugin configuration
