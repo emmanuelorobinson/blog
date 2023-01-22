@@ -14,12 +14,13 @@ const Footer: React.FC<Props> = ({ className }) => {
   return (
     <div className={className}>
       <a
-        href={'https://github.com/morethanmin/morethan-log'}
+        href={'https://github.com/emmanuelorobinson'}
         target="_blank"
         className="text-gray-500 text-sm mt-3"
         rel="noreferrer"
       >
-        © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
+        {/* © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`} */}
+        © {CONFIG.profile.name} {`${y}`}
       </a>
     </div>
   )
