@@ -5,7 +5,7 @@ const CONFIG = {
     image: '/avatar.png',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: 'Software Engineer',
     bio: 'A computer science & business infromation systems double major with a passion for building products that solve real world problems.',
-    linkedin: 'emmanuel-robinson-1a22171b0',
+    linkedin: 'emmanuelejakpomewhe',
     email: 'emmanueloerobinson@gmail.com',
     github: 'emmanuelorobinson',
     instagram: '',
